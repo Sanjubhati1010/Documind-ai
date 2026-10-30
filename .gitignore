@@ -1,0 +1,16 @@
+
+.env
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.streamlit/secrets.toml
+data/uploads/*
+data/vectorstore/*
+.DS_Store
+Thumbs.db
+
+!data/uploads/.gitkeep
+!data/vectorstore/.gitkeep
